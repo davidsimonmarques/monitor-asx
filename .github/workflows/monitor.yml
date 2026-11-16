@@ -1,0 +1,52 @@
+name: Monitor Mitsubishi ASX Belo Horizonte
+
+on:
+  schedule:
+    # Executa a cada 3 horas todos os dias (horário UTC)
+    - cron: '0 */3 * * *'
+  workflow_dispatch: # Permite disparo manual na aba Actions do GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Instalar Dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Executar Monitor de Anúncios
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MAX_PRICE: 70000
+          COUNTEROFFER_MAX_PRICE: 80000
+          MIN_YEAR: 2014
+          DRY_RUN: 'False'
+        run: |
+          python main.py
+
+      - name: Salvar Histórico de Anúncios Vistos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/seen_ads.json || true
+          if git diff --staged --quiet; then
+            echo "Nenhuma alteração no histórico de anúncios."
+          else
+            git commit -m "chore: atualizar histórico de anúncios visualizados [skip ci]"
+            git push
+          fi
