@@ -37,5 +37,57 @@
     "source": "WCar Veículos BH",
     "first_seen_at": "2026-11-16T23:05:58.542031",
     "last_seen_at": "2026-11-16T23:05:58.542033"
+  },
+  "galaxy_motors_mg_978551": {
+    "id": "galaxy_motors_mg_978551",
+    "url": "https://galaxymotorsmg.com.br/Veiculo/asx-2.0--4x2-16v-gasolina-4p-automatico-nova-2014/5732171/detalhes",
+    "title": "Mitsubishi ASX 2014 - Galaxy Motors MG",
+    "price": 65900.0,
+    "year": 2014,
+    "km": 115000,
+    "score": 5.3,
+    "is_eligible": true,
+    "source": "Galaxy Motors MG",
+    "first_seen_at": "2026-11-17T02:56:43.828682",
+    "last_seen_at": "2026-11-17T02:56:43.828691"
+  },
+  "grande_bh_veículos_3722229": {
+    "id": "grande_bh_veículos_3722229",
+    "url": "https://grandebhveiculos.com.br/Veiculo/asx-2.0-4x2-16v-gasolina-4p-automatico-gasolina-2016/5571641/detalhes",
+    "title": "Mitsubishi ASX 2016 - Grande BH Veículos",
+    "price": 74700.0,
+    "year": 2016,
+    "km": 115000,
+    "score": 5.3,
+    "is_eligible": false,
+    "source": "Grande BH Veículos",
+    "first_seen_at": "2026-11-17T02:56:43.828957",
+    "last_seen_at": "2026-11-17T02:56:43.828959"
+  },
+  "portal_auto_shopping_7499012": {
+    "id": "portal_auto_shopping_7499012",
+    "url": "https://www.portalautoshopping.com.br/Veiculo/asx-2.0-4x2-16v-gasolina-4p-automatico-gasolina-2016/5666948/detalhes",
+    "title": "Mitsubishi ASX 2016 - Portal Auto Shopping",
+    "price": 75900.0,
+    "year": 2016,
+    "km": 115000,
+    "score": 4.5,
+    "is_eligible": false,
+    "source": "Portal Auto Shopping",
+    "first_seen_at": "2026-11-17T02:56:43.829307",
+    "last_seen_at": "2026-11-17T02:56:43.829309"
+  },
+  "wcar_veículos_bh_9409663": {
+    "id": "wcar_veículos_bh_9409663",
+    "url": "https://wcarveiculosbh.com.br/Veiculo/asx-2.0-4x4-awd-16v-gasolina-4p-automatico-gasolina-2015/5706367/detalhes",
+    "title": "Mitsubishi ASX 2015 - WCar Veículos BH",
+    "price": 73500.0,
+    "year": 2015,
+    "km": 115000,
+    "score": 4.7,
+    "is_eligible": false,
+    "source": "WCar Veículos BH",
+    "first_seen_at": "2026-11-17T02:56:43.829538",
+    "last_seen_at": "2026-11-17T02:56:43.829539"
   }
 }
