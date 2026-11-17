@@ -141,5 +141,44 @@
     "source": "WCar Veículos BH",
     "first_seen_at": "2026-11-17T06:28:21.710425",
     "last_seen_at": "2026-11-17T06:28:21.710429"
+  },
+  "galaxy_motors_mg_9560578": {
+    "id": "galaxy_motors_mg_9560578",
+    "url": "https://galaxymotorsmg.com.br/Veiculo/asx-2.0--4x2-16v-gasolina-4p-automatico-nova-2014/5732171/detalhes",
+    "title": "Mitsubishi ASX 2014 - Galaxy Motors MG",
+    "price": 65900.0,
+    "year": 2014,
+    "km": 115000,
+    "score": 5.3,
+    "is_eligible": true,
+    "source": "Galaxy Motors MG",
+    "first_seen_at": "2026-11-17T18:08:38.053459",
+    "last_seen_at": "2026-11-17T18:08:38.053467"
+  },
+  "grande_bh_veículos_4129894": {
+    "id": "grande_bh_veículos_4129894",
+    "url": "https://grandebhveiculos.com.br/Veiculo/asx-2.0-4x2-16v-gasolina-4p-automatico-gasolina-2016/5571641/detalhes",
+    "title": "Mitsubishi ASX 2016 - Grande BH Veículos",
+    "price": 74700.0,
+    "year": 2016,
+    "km": 115000,
+    "score": 5.3,
+    "is_eligible": false,
+    "source": "Grande BH Veículos",
+    "first_seen_at": "2026-11-17T18:08:38.054005",
+    "last_seen_at": "2026-11-17T18:08:38.054007"
+  },
+  "wcar_veículos_bh_2474886": {
+    "id": "wcar_veículos_bh_2474886",
+    "url": "https://wcarveiculosbh.com.br/Veiculo/asx-2.0-4x4-awd-16v-gasolina-4p-automatico-gasolina-2015/5706367/detalhes",
+    "title": "Mitsubishi ASX 2015 - WCar Veículos BH",
+    "price": 73500.0,
+    "year": 2015,
+    "km": 115000,
+    "score": 4.7,
+    "is_eligible": false,
+    "source": "WCar Veículos BH",
+    "first_seen_at": "2026-11-17T18:08:38.054458",
+    "last_seen_at": "2026-11-17T18:08:38.054460"
   }
 }
