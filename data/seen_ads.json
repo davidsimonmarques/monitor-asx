@@ -349,5 +349,44 @@
     "source": "WCar Veículos BH",
     "first_seen_at": "2026-11-19T11:07:07.461926",
     "last_seen_at": "2026-11-19T11:07:07.461940"
+  },
+  "portal_auto_shopping_1397621": {
+    "id": "portal_auto_shopping_1397621",
+    "url": "https://www.portalautoshopping.com.br/Veiculo/asx-2.0-4x4-awd-16v-gasolina-4p-automatico-gasolina-2016/5280624/detalhes",
+    "title": "Mitsubishi ASX 2016 - Portal Auto Shopping",
+    "price": 69990.0,
+    "year": 2016,
+    "km": 115000,
+    "score": 6.3,
+    "is_eligible": true,
+    "source": "Portal Auto Shopping",
+    "first_seen_at": "2026-11-19T19:56:01.400392",
+    "last_seen_at": "2026-11-19T19:56:01.400399"
+  },
+  "grande_bh_veículos_5136612": {
+    "id": "grande_bh_veículos_5136612",
+    "url": "https://grandebhveiculos.com.br/Veiculo/asx-2.0-4x2-16v-gasolina-4p-automatico-gasolina-2016/5571641/detalhes",
+    "title": "Mitsubishi ASX 2016 - Grande BH Veículos",
+    "price": 74700.0,
+    "year": 2016,
+    "km": 115000,
+    "score": 5.3,
+    "is_eligible": false,
+    "source": "Grande BH Veículos",
+    "first_seen_at": "2026-11-19T19:56:01.402101",
+    "last_seen_at": "2026-11-19T19:56:01.402105"
+  },
+  "wcar_veículos_bh_1707919": {
+    "id": "wcar_veículos_bh_1707919",
+    "url": "https://wcarveiculosbh.com.br/Veiculo/asx-2.0-4x4-awd-16v-gasolina-4p-automatico-gasolina-2015/5706367/detalhes",
+    "title": "Mitsubishi ASX 2015 - WCar Veículos BH",
+    "price": 73500.0,
+    "year": 2015,
+    "km": 115000,
+    "score": 4.7,
+    "is_eligible": false,
+    "source": "WCar Veículos BH",
+    "first_seen_at": "2026-11-19T19:56:01.403248",
+    "last_seen_at": "2026-11-19T19:56:01.403256"
   }
 }
